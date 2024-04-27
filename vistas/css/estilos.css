@@ -1,0 +1,141 @@
+.divFile{
+   padding:10px;
+   width:150px;
+   background-color: #008080;//#2499e3;
+   margin:0px;
+   position: relative;
+   -webkit-border-radius:5px;
+   -webkit-box-shadow:0px 3px 0px #C0C0C0; //#1a71a9;
+}
+
+.texto {
+	text-align: center;
+	color:white;
+}
+.btnFile{
+   position:absolute;   
+   top:0px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+}
+
+.divImagen{
+   padding:0px;
+   width:130px;
+   margin:10px;
+   position: relative;
+   -webkit-border-radius:5px;
+   -webkit-box-shadow:0px 3px 0px #C0C0C0; //#1a71a9;
+}
+
+.container {
+   position: relative;
+   top:20px;
+   width: 100%;
+   height: auto;
+   margin: auto;
+   padding: 0px;
+   background: none;
+   
+}
+
+.container .list-image{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: left;
+
+}
+
+.container .list-image li{
+   margin-right: 20px;
+   margin-bottom: 20px;
+   list-style: none;
+
+}
+
+.container .list-image li .container__image{
+   position: relative;
+   width: 180px;
+   height: 190px;
+   background: #e0e0e0;
+   border-radius: 3px;
+   transition: transform .5s;
+}
+.container .list-image li .container__image:hover{
+   transform: scale(1.1);
+}
+
+
+.container .list-image li .container__image img{
+   position: relative;
+   width: 180px;
+   height: 150px;
+   border-top-right-radius: 3px;
+   border-top-left-radius: 3px;
+   
+}
+
+
+.container .list-image li .container__image .information__image{
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
+   height: 40px;
+   background-color: none;
+   align-items: center;
+   display:flex;
+   
+}
+
+.container .list-image li .container__image .information__image .titulo__image{
+   font-family: "Open Sans";
+   font-size: 14px;
+   margin-left: 8px;
+
+}
+
+.container .list-image li .container__image .information__image .minus__image{
+   position: absolute;
+   right: 5px;
+   top:5px;
+   padding: 6px 12px;
+   height: 25px;
+   line-height: 10px;
+   width: auto;
+}
+
+.ver__image{
+   position: relative;
+   width: 470px;
+   height: auto;
+   margin: auto;
+   background: #none;
+}
+
+.ver__image .imagePrincipal{
+   position: relative;
+   width: 100%;
+   height: auto;
+   border-top-right-radius: 3px;
+   border-top-left-radius: 3px;
+
+} 
+
+.visorPDF {
+   position: relative;
+   top:20px;
+}
+
+.imagenLogo{
+   opacity: 0.65;
+}
+
+.imagenLogo:hover{
+   cursor:pointer;
+   opacity: 1;
+   transform: scale(1.3);
+}
